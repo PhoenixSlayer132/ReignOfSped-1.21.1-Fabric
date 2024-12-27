@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.phoenixslayer132.reignofsped.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"blocks.ObbyToDarOre"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
