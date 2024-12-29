@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "reignofsped:dar_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "reignofsped:dar_ingot"
+  }
+}

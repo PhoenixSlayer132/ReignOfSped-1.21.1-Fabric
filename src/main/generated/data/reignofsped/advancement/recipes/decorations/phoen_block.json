@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_phoen_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reignofsped:phoen_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:phoen_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_phoen_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:phoen_block"
+    ]
+  }
+}

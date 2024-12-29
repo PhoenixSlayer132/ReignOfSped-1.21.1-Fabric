@@ -1,0 +1,66 @@
+{
+  "itemgroup.reign_of_sped_group": "Reign of Sped",
+
+  "item.reignofsped.raw_phoen": "Raw Phoen",
+  "item.reignofsped.raw_supern": "Raw Supern",
+  "item.reignofsped.raw_blq": "Raw Blq",
+  "item.reignofsped.raw_dar": "Raw Dar",
+
+  "item.reignofsped.phoen_ingot": "Phoen Ingot",
+  "item.reignofsped.supern_ingot": "Supern Ingot",
+  "item.reignofsped.blq_ingot": "Blq Ingot",
+  "item.reignofsped.dar_ingot": "Dar Ingot",
+
+  "block.reignofsped.raw_phoen_block": "Block of Raw Phoen",
+  "block.reignofsped.raw_supern_block": "Block of Raw Supern",
+  "block.reignofsped.raw_blq_block": "Block of Raw Blq",
+  "block.reignofsped.raw_dar_block": "Block of Raw Dar",
+
+  "block.reignofsped.phoen_block": "Block of Phoen",
+  "block.reignofsped.supern_block": "Block of Supern",
+  "block.reignofsped.blq_block": "Block of Blq",
+  "block.reignofsped.dar_block": "Block of Dar",
+
+  "block.reignofsped.phoen_ore": "Phoen Ore",
+  "block.reignofsped.supern_ore": "Supern Ore",
+  "block.reignofsped.blq_ore": "Blq Ore",
+  "block.reignofsped.dar_ore": "Dar Ore",
+
+  "block.reignofsped.lammoth_planks": "Lammoth Planks",
+  "block.reignofsped.lammoth_wood": "Lammoth Wood",
+  "block.reignofsped.lammoth_log": "Lammoth Log",
+  "block.reignofsped.stripped_lammoth_wood": "Stripped Lammoth Wood",
+  "block.reignofsped.stripped_lammoth_log": "Stripped Lammoth Log",
+  "block.reignofsped.lammoth_leaves": "Lammoth Leaves",
+  "block.reignofsped.lammoth_sapling": "Lammoth Sapling",
+  "item.reignofsped.lammoth_stick": "Lammoth Stick",
+  "item.reignofsped.lammoth_stake": "Lammoth Stake",
+
+  "item.reignofsped.gracious_amulet_item": "Gracious Amulet",
+  "item.reignofsped.unknown_item": "Unknown Item",
+  "item.reignofsped.restoration_scroll_item": "Restoration Scroll",
+  "item.reignofsped.linyurds_runes_item": "Linyurd's Runes",
+
+  "item.reignofsped.phoen_carrot": "Phoen Carrot",
+  "item.reignofsped.bird_feed": "Bird Feed",
+  "item.reignofsped.odd_bird_feed": "Odd Bird Feed",
+
+  "item.reignofsped.golden_bamboo": "Golden Bamboo",
+  "item.reignofsped.chicken_tenders": "Chicken Tenders",
+  "item.reignofsped.chicken_sandwich": "Chicken Sandwich",
+  "item.reignofsped.chicken_bucket": "Chicken Bucket",
+
+  "item.reignofsped.catfish": "Catfish",
+  "item.reignofsped.cooked_catfish": "Cooked Catfish",
+  "item.reignofsped.fried_catfish": "Fried Catfish",
+  "item.reignofsped.supern_catfish": "Supern Catfish",
+
+  "item.reignofsped.imitation_crab_rangoon": "Imitation Crab Rangoon",
+  "item.reignofsped.fent_laced_rangoon": "Fent Laced Rangoon",
+
+  "tooltip.reignofsped.gracious_amulet_item.tooltip.shift": "It seems to have a connection with the Badlands in someway.",
+  "tooltip.reignofsped.gracious_amulet_item.tooltip": "Shift Right-Clicking with this item heals the player with added bonuses.",
+
+  "key.category.reignofsped.reignofsped": "Reign of Sped Mod Keys",
+  "key.category.reignofsped.gracious_amulet_ability": "Gracious Amulet Ability"
+}

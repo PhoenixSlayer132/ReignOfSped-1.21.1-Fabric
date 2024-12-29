@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_supern_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reignofsped:supern_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:supern_ingot_from_blasting_supern_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_supern_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:supern_ingot_from_blasting_supern_ore"
+    ]
+  }
+}

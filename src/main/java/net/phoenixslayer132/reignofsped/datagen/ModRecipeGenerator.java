@@ -2,30 +2,31 @@ package net.phoenixslayer132.reignofsped.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.util.Identifier;
 import net.phoenixslayer132.reignofsped.block.ModBlocks;
 import net.phoenixslayer132.reignofsped.item.ModItems;
 
 import java.util.List;
-import java.util.function.Consumer;
+import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeGenerator extends FabricRecipeProvider {
-    public ModRecipeGenerator(FabricDataOutput output) {
-        super(output);
+    public ModRecipeGenerator(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registryWrapper) {
+        super(output, registryWrapper);
     }
 
     @Override
-    public void generate(Consumer<RecipeJsonProvider> exporter) {
+    public void generate(RecipeExporter exporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LAMMOTH_STAKE)
                 .pattern("  S")
                 .pattern(" S ")
                 .pattern("S  ")
                 .input('S', ModItems.LAMMOTH_STICK)
                 .criterion(hasItem(ModItems.LAMMOTH_STICK), conditionsFromItem(ModItems.LAMMOTH_STICK))
-                .offerTo(exporter, new Identifier(getRecipeName(ModItems.LAMMOTH_STAKE)));
+                .offerTo(exporter, Identifier.of(getRecipeName(ModItems.LAMMOTH_STAKE)));
 
 
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.BLQ_INGOT, RecipeCategory.DECORATIONS,

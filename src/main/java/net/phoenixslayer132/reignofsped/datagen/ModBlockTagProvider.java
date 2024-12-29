@@ -2,7 +2,6 @@ package net.phoenixslayer132.reignofsped.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.fabricmc.fabric.api.mininglevel.v1.MiningLevelManager;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
 import net.phoenixslayer132.reignofsped.block.ModBlocks;
@@ -28,34 +27,55 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BLQ_ORE);
 
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.BLQ_ORE,
+                .add(
+                        ModBlocks.BLQ_ORE,
+                        ModBlocks.RAW_BLQ_BLOCK,
+                        ModBlocks.BLQ_BLOCK,
                         ModBlocks.RAW_PHOEN_BLOCK,
+                        ModBlocks.PHOEN_ORE,
+                        ModBlocks.PHOEN_BLOCK,
                         ModBlocks.DAR_ORE,
                         ModBlocks.RAW_DAR_BLOCK,
-                        ModBlocks.RAW_BLQ_BLOCK,
-                        ModBlocks.PHOEN_ORE,
+                        ModBlocks.DAR_BLOCK,
                         ModBlocks.RAW_SUPERN_BLOCK,
-                        ModBlocks.SUPERN_ORE);
+                        ModBlocks.SUPERN_ORE,
+                        ModBlocks.SUPERN_BLOCK);
 
-        getOrCreateTagBuilder(MiningLevelManager.getBlockTag(4))
-                .add(ModBlocks.BLQ_ORE,
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(
+                        ModBlocks.LAMMOTH_LOG,
+                        ModBlocks.LAMMOTH_WOOD,
+                        ModBlocks.STRIPPED_LAMMOTH_LOG,
+                        ModBlocks.STRIPPED_LAMMOTH_WOOD);
+
+        getOrCreateTagBuilder(BlockTags.INCORRECT_FOR_DIAMOND_TOOL)
+                .add(
+                        ModBlocks.BLQ_ORE,
+                        ModBlocks.RAW_BLQ_BLOCK,
+                        ModBlocks.BLQ_BLOCK,
                         ModBlocks.RAW_PHOEN_BLOCK,
+                        ModBlocks.PHOEN_ORE,
+                        ModBlocks.PHOEN_BLOCK,
                         ModBlocks.DAR_ORE,
                         ModBlocks.RAW_DAR_BLOCK,
-                        ModBlocks.RAW_BLQ_BLOCK,
-                        ModBlocks.PHOEN_ORE,
+                        ModBlocks.DAR_BLOCK,
                         ModBlocks.RAW_SUPERN_BLOCK,
-                        ModBlocks.SUPERN_ORE
-                        );
+                        ModBlocks.SUPERN_ORE,
+                        ModBlocks.SUPERN_BLOCK);
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.LAMMOTH_LOG,
+                .add(
+                        ModBlocks.LAMMOTH_LOG,
                         ModBlocks.LAMMOTH_PLANKS,
                         ModBlocks.LAMMOTH_WOOD,
                         ModBlocks.STRIPPED_LAMMOTH_LOG,
-                        ModBlocks.STRIPPED_LAMMOTH_WOOD
-                        );
+                        ModBlocks.STRIPPED_LAMMOTH_WOOD);
+
         getOrCreateTagBuilder(BlockTags.LOGS_THAT_BURN)
-                .add(ModBlocks.LAMMOTH_LOG, ModBlocks.LAMMOTH_WOOD, ModBlocks.STRIPPED_LAMMOTH_LOG, ModBlocks.STRIPPED_LAMMOTH_WOOD );
+                .add(
+                        ModBlocks.LAMMOTH_LOG,
+                        ModBlocks.LAMMOTH_WOOD,
+                        ModBlocks.STRIPPED_LAMMOTH_LOG,
+                        ModBlocks.STRIPPED_LAMMOTH_WOOD);
     }
 }

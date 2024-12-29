@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_lammoth_stick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reignofsped:lammoth_stick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:lammoth_stake"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_lammoth_stick"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:lammoth_stake"
+    ]
+  }
+}

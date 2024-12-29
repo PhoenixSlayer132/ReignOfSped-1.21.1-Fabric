@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "reignofsped:block/lammoth_sapling"
+  }
+}

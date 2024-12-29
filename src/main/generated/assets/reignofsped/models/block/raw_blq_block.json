@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "reignofsped:block/raw_blq_block"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_dar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reignofsped:raw_dar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:dar_ingot_from_smelting_raw_dar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_dar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:dar_ingot_from_smelting_raw_dar"
+    ]
+  }
+}

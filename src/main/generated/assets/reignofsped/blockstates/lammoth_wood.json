@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "reignofsped:block/lammoth_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "reignofsped:block/lammoth_wood"
+    },
+    "axis=z": {
+      "model": "reignofsped:block/lammoth_wood",
+      "x": 90
+    }
+  }
+}

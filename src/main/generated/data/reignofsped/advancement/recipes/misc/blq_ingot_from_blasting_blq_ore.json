@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blq_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "reignofsped:blq_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:blq_ingot_from_blasting_blq_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_blq_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:blq_ingot_from_blasting_blq_ore"
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2.0,
+  "group": "Reign Of Sped",
+  "ingredient": {
+    "item": "reignofsped:raw_phoen"
+  },
+  "result": {
+    "id": "reignofsped:phoen_ingot"
+  }
+}

@@ -40,6 +40,29 @@ public class ModItemGroups {
                         entries.add(ModItems.BLQ_INGOT);
                         entries.add(ModItems.DAR_INGOT);
 
+                        //Ingot Blocks
+                        entries.add(ModBlocks.PHOEN_BLOCK);
+                        entries.add(ModBlocks.SUPERN_BLOCK);
+                        entries.add(ModBlocks.BLQ_BLOCK);
+                        entries.add(ModBlocks.DAR_BLOCK);
+
+                        //Wood
+                        entries.add(ModItems.LAMMOTH_STICK);
+                        entries.add(ModBlocks.LAMMOTH_PLANKS);
+                        entries.add(ModBlocks.LAMMOTH_WOOD);
+                        entries.add(ModBlocks.LAMMOTH_LOG);
+                        entries.add(ModBlocks.STRIPPED_LAMMOTH_WOOD);
+                        entries.add(ModBlocks.STRIPPED_LAMMOTH_LOG);
+                        entries.add(ModBlocks.LAMMOTH_LEAVES);
+                        entries.add(ModBlocks.LAMMOTH_SAPLING);
+
+                        //Misc
+                        entries.add(ModItems.LAMMOTH_STAKE);
+
+                        //Artifacts
+                        entries.add(ModItems.GRACIOUS_AMULET_ITEM);
+                        entries.add(ModItems.UNKNOWN_ITEM);
+
                         //Scrolls
                         entries.add(ModItems.RESTORATION_SCROLL_ITEM);
                         entries.add(ModItems.STRENGTH_SCROLL_ITEM);
@@ -48,9 +71,25 @@ public class ModItemGroups {
                         entries.add(ModItems.MOVEMENT_SPEED_SCROLL_ITEM);
                         entries.add(ModItems.DUPLICATION_SCROLL_ITEM);
 
+                        //Runes
+                        entries.add(ModItems.LINYURDS_RUNES_ITEM);
+
+                        //Runes Block
+                        entries.add(ModBlocks.LINYURDS_RUNES_BLOCK);
+
                         //Custom Blocks
                         entries.add(ModBlocks.DUPLICATOR_BLOCK);
                         entries.add(ModBlocks.TREASURE_CHEST_BLOCK);
+
+                        //Custom foods
+                        entries.add(ModItems.GOLDEN_BAMBOO);
+                        entries.add(ModItems.CHICKEN_TENDERS);
+                        entries.add(ModItems.CHICKEN_SANDWICH);
+                        entries.add(ModItems.CHICKEN_BUCKET);
+                        entries.add(ModItems.CATFISH);
+                        entries.add(ModItems.COOKED_CATFISH);
+                        entries.add(ModItems.FRIED_CATFISH);
+                        entries.add(ModItems.SUPERN_CATFISH);
 
                     }).build());
 

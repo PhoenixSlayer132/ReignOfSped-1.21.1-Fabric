@@ -6,6 +6,11 @@ import net.minecraft.registry.Registry;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
 
 import net.minecraft.util.Identifier;
+import net.phoenixslayer132.reignofsped.item.custom.items.ModFoodComponents;
+import net.phoenixslayer132.reignofsped.item.custom.items.artifacts.GraciousAmuletItem;
+import net.phoenixslayer132.reignofsped.item.custom.items.artifacts.UnknownItem;
+import net.phoenixslayer132.reignofsped.item.custom.items.misc.LammothStakeItem;
+import net.phoenixslayer132.reignofsped.item.custom.items.runes.LinyurdsRunesItem;
 import net.phoenixslayer132.reignofsped.item.custom.items.scrolls.*;
 
 public class ModItems {
@@ -28,6 +33,17 @@ public class ModItems {
     public static final Item DAR_INGOT = registerItem("dar_ingot",
             new Item(new Item.Settings()));
 
+    public static final Item LAMMOTH_STICK = registerItem("lammoth_stick",
+            new Item(new Item.Settings()));
+
+    public static final Item LAMMOTH_STAKE = registerItem("lammoth_stake",
+            new LammothStakeItem(new Item.Settings().maxDamage(10)));
+
+    public static final Item GRACIOUS_AMULET_ITEM = registerItem("gracious_amulet_item",
+            new GraciousAmuletItem(new Item.Settings().maxDamage(999)));
+    public static final Item UNKNOWN_ITEM = registerItem("unknown_item",
+            new UnknownItem(new Item.Settings().fireproof().maxDamage(1)));
+
     public static final Item RESTORATION_SCROLL_ITEM = registerItem("restoration_scroll_item",
             new RestorationScrollItem(new Item.Settings().maxCount(8)));
     public static final Item STRENGTH_SCROLL_ITEM = registerItem("strength_scroll_item",
@@ -40,6 +56,28 @@ public class ModItems {
             new DuplicationScrollItem(new Item.Settings().maxCount(8)));
     public static final Item MOVEMENT_SPEED_SCROLL_ITEM = registerItem("movement_speed_scroll_item",
             new MovementSpeedScrollItem(new Item.Settings().maxCount(8)));
+
+    public static final Item LINYURDS_RUNES_ITEM = registerItem("linyurds_runes_item",
+            new LinyurdsRunesItem(new Item.Settings().maxDamage(256)));
+
+    public static final Item GOLDEN_BAMBOO = registerItem("golden_bamboo",
+            new Item(new Item.Settings().food(ModFoodComponents.GOLDEN_BAMBOO)));
+    public static final Item CHICKEN_TENDERS = registerItem("chicken_tenders",
+            new Item(new Item.Settings().food(ModFoodComponents.CHICKEN_TENDERS)));
+    public static final Item CHICKEN_SANDWICH = registerItem("chicken_sandwich",
+            new Item(new Item.Settings().food(ModFoodComponents.CHICKEN_SANDWICH)));
+    public static final Item CHICKEN_BUCKET = registerItem("chicken_bucket",
+            new Item(new Item.Settings().food(ModFoodComponents.CHICKEN_BUCKET)));
+
+
+    public static final Item CATFISH = registerItem("catfish",
+            new Item(new Item.Settings().food(ModFoodComponents.CATFISH)));
+    public static final Item COOKED_CATFISH = registerItem("cooked_catfish",
+            new Item(new Item.Settings().food(ModFoodComponents.COOKED_CATFISH)));
+    public static final Item FRIED_CATFISH = registerItem("fried_catfish",
+            new Item(new Item.Settings().food(ModFoodComponents.FRIED_CATFISH)));
+    public static final Item SUPERN_CATFISH = registerItem("supern_catfish",
+            new Item(new Item.Settings().food(ModFoodComponents.SUPERN_CATFISH)));
 
     public static Item registerItem (String name, Item item){
     return Registry.register(Registries.ITEM, Identifier.of(ReignOfSped.MOD_ID, name), item);

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "reignofsped:block/stripped_lammoth_log_top",
+    "side": "reignofsped:block/stripped_lammoth_log"
+  }
+}

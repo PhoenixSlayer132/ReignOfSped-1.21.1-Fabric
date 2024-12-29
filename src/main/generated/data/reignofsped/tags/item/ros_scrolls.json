@@ -1,0 +1,10 @@
+{
+  "values": [
+    "reignofsped:attack_speed_scroll_item",
+    "reignofsped:duplication_scroll_item",
+    "reignofsped:restoration_scroll_item",
+    "reignofsped:strength_scroll_item",
+    "reignofsped:repair_scroll_item",
+    "reignofsped:movement_speed_scroll_item"
+  ]
+}
