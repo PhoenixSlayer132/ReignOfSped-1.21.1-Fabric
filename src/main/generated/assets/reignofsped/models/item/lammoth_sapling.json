@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "reignofsped:block/lammoth_sapling"
+    "layer0": "reignofsped:item/lammoth_sapling"
   }
 }

@@ -37,5 +37,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                     ModItems.STRENGTH_SCROLL_ITEM,
                     ModItems.REPAIR_SCROLL_ITEM,
                     ModItems.MOVEMENT_SPEED_SCROLL_ITEM);
+
+        getOrCreateTagBuilder(ModTags.Items.ROS_ARTIFACTS)
+                .add(
+                        ModItems.GRACIOUS_AMULET_ITEM,
+                        ModItems.UNKNOWN_ITEM);
     }
 }

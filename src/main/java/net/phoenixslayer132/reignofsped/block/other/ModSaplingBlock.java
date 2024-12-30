@@ -1,4 +1,4 @@
-package net.phoenixslayer132.reignofsped.block.custom;
+package net.phoenixslayer132.reignofsped.block.other;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

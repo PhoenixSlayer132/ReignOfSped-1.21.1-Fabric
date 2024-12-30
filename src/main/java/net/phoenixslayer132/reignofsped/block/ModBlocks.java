@@ -9,7 +9,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 import net.phoenixslayer132.reignofsped.ReignOfSped;
 import net.phoenixslayer132.reignofsped.block.custom.DuplicatorBlock;
-import net.phoenixslayer132.reignofsped.block.custom.ModSaplingBlock;
+import net.phoenixslayer132.reignofsped.block.other.ModSaplingBlock;
 import net.phoenixslayer132.reignofsped.block.custom.TreasureChestBlock;
 import net.phoenixslayer132.reignofsped.block.runes.LinyurdsRunesBlock;
 import net.phoenixslayer132.reignofsped.world.tree.ModSaplingGenerators;

@@ -18,6 +18,9 @@
 		"main": [
 			"net.phoenixslayer132.reignofsped.ReignOfSped"
 		],
+		"client": [
+			"net.phoenixslayer132.reignofsped.ReignOfSpedClient"
+		],
 		"fabric-datagen": [
 			"net.phoenixslayer132.reignofsped.ReignOfSpedDataGenerator"
 		]
