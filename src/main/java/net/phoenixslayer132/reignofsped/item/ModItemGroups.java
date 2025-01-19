@@ -13,7 +13,7 @@ import net.phoenixslayer132.reignofsped.block.ModBlocks;
 public class ModItemGroups {
     public static final ItemGroup RIEGNOFSPED = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(ReignOfSped.MOD_ID, "reignofsped"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.reignofsped"))
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.reignofsped_group"))
                     .icon(() -> new ItemStack(ModItems.RAW_PHOEN)).entries((displayContext, entries) -> {
                         //Raw ores
                         entries.add(ModItems.RAW_PHOEN);

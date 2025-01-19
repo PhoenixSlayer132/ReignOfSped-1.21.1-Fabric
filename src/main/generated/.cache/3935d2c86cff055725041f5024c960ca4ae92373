@@ -1,6 +1,6 @@
-// 1.21.1	2024-12-30T02:44:21.9350614	ReignOfSped/Tags for minecraft:block
-f41733470865913f358bb8f11a3ac571cd4cca83 data\minecraft\tags\block\mineable\pickaxe.json
+// 1.21.1	2025-01-19T15:30:15.7053607	ReignOfSped/Tags for minecraft:block
 9fb101d4fc608887bed5bef1e07a36e59ba0e89f data\minecraft\tags\block\needs_iron_tool.json
+f41733470865913f358bb8f11a3ac571cd4cca83 data\minecraft\tags\block\mineable\pickaxe.json
 7506dd6cb71dd73c7a78c31c2d5e0ca11098ddf3 data\reignofsped\tags\block\supern_ore_block.json
 b88a8f101d164e7314b7ca415e66dbb06b1ed818 data\reignofsped\tags\block\blq_ore_block.json
 35b9dee63854f52cf783d2c688873c1ad8d1d322 data\reignofsped\tags\block\dar_ore_block.json
