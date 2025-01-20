@@ -42,7 +42,7 @@ public class MovementSpeedScrollItem extends Item {
 
                     if (mvmtSpdAttr != null){
                         if (mvmtSpdAttr.getModifier(boostIden) == null && tickCounter == 1)
-                            mvmtSpdAttr.addTemporaryModifier(new EntityAttributeModifier(boostIden, 0.2, EntityAttributeModifier.Operation.ADD_VALUE));
+                            mvmtSpdAttr.addPersistentModifier(new EntityAttributeModifier(boostIden, 0.2, EntityAttributeModifier.Operation.ADD_VALUE));
 
                         if (mvmtSpdAttr.getModifier(boostIden) != null && tickCounter == 1800)
                             mvmtSpdAttr.removeModifier(boostIden);

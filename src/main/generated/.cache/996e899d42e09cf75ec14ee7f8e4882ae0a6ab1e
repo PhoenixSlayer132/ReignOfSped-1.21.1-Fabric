@@ -1,9 +1,9 @@
-// 1.21.1	2025-01-19T15:30:15.7028202	ReignOfSped/World Gen
+// 1.21.1	2025-01-19T20:09:21.3770798	ReignOfSped/World Gen
 f9aaeeec5210ff951e2a43621e6f7e4a90f213dd data\reignofsped\worldgen\placed_feature\supern_ore_placed.json
-20594195bf84093c919aad2d9146df6c323c79b3 data\reignofsped\worldgen\configured_feature\phoen_ore.json
 be5f67111f1ac640db98ca73eee1d48cd460d9a5 data\reignofsped\worldgen\configured_feature\supern_ore.json
-1aac8d060480bd9a40f3df6c79e0cec4dba3da26 data\reignofsped\worldgen\placed_feature\phoen_ore_placed.json
+20594195bf84093c919aad2d9146df6c323c79b3 data\reignofsped\worldgen\configured_feature\phoen_ore.json
 a56b1fbda59fdd9b7c790096475c5a9ea03fd354 data\reignofsped\worldgen\placed_feature\blq_ore_placed.json
+1aac8d060480bd9a40f3df6c79e0cec4dba3da26 data\reignofsped\worldgen\placed_feature\phoen_ore_placed.json
 d46bbb54a708d9ae9f0e05df23dbde5ef0fd9e4a data\reignofsped\worldgen\configured_feature\blq_ore.json
 8a4f433fb135281520033606122510c281072bb8 data\reignofsped\worldgen\configured_feature\lammoth.json
 c4638ac99d68fe196fb62cd026a94cd6260374c6 data\reignofsped\worldgen\placed_feature\lammoth_placed.json

@@ -46,7 +46,7 @@ public class StrengthScrollItem extends Item {
 
                     if (atkSpdAttr != null){
                         if (atkSpdAttr.getModifier(boostIden) == null && tickCounter == 1)
-                            atkSpdAttr.addTemporaryModifier(new EntityAttributeModifier(boostIden, 2.0, EntityAttributeModifier.Operation.ADD_VALUE));
+                            atkSpdAttr.addPersistentModifier(new EntityAttributeModifier(boostIden, 2.0, EntityAttributeModifier.Operation.ADD_VALUE));
 
                         if (atkSpdAttr.getModifier(boostIden) != null && tickCounter == 20)
                             atkSpdAttr.updateModifier(new EntityAttributeModifier(boostIden, 3.0, EntityAttributeModifier.Operation.ADD_VALUE));

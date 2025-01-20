@@ -92,6 +92,9 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.LINYURDS_RUNES_ITEM, Models.GENERATED);
         //Scrolls
         itemModelGenerator.register(ModItems.RESTORATION_SCROLL_ITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STRENGTH_SCROLL_ITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ATTACK_SPEED_SCROLL_ITEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MOVEMENT_SPEED_SCROLL_ITEM, Models.GENERATED);
         //Misc
         itemModelGenerator.register(ModItems.LAMMOTH_STAKE, Models.GENERATED);
 
