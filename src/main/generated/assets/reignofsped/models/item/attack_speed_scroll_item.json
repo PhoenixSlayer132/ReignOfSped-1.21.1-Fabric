@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "reignofsped:item/attack_speed_scroll_item"
+  }
+}

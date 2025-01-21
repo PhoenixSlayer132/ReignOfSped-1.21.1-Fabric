@@ -47,12 +47,12 @@ public class ModConfiguredFeatures {
 
         register(context, LAMMOTH_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                     BlockStateProvider.of(ModBlocks.LAMMOTH_LOG),
-                    new StraightTrunkPlacer(5, 6, 3),
+                    new StraightTrunkPlacer(2, 1, 0),
 
                     BlockStateProvider.of(ModBlocks.LAMMOTH_LEAVES),
-                    new BlobFoliagePlacer(ConstantIntProvider.create(4), ConstantIntProvider.create(1), 3),
+                    new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
 
-                    new TwoLayersFeatureSize(1, 0,2)).dirtProvider(BlockStateProvider.of(Blocks.MYCELIUM)).build());
+                    new TwoLayersFeatureSize(1, 2,1)).dirtProvider(BlockStateProvider.of(Blocks.MYCELIUM)).build());
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name){

@@ -38,7 +38,8 @@ public class ModPlacedFeatures {
 
         register(context, LAMMOTH_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.LAMMOTH_KEY),
                 VegetationPlacedFeatures.treeModifiersWithWouldSurvive(
-                        PlacedFeatures.createCountExtraModifier(1, 0.1f, 1), ModBlocks.LAMMOTH_SAPLING));
+                        PlacedFeatures.createCountExtraModifier(1, 0.5f, 0), ModBlocks.LAMMOTH_SAPLING));
+
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name){
